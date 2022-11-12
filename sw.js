@@ -10,7 +10,7 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     './style.css',
     './script.js',
     './img/Lhuis.png',
-    './img/favicon.png'
+    './img/favicon,ico'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
@@ -61,4 +61,3 @@ self.addEventListener('fetch', e => {
       })
   )
 })
-//Compartir cbu
