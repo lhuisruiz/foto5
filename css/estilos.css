@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /*Texto No Select */
+    user-select: none;
 
 }
 
@@ -143,7 +145,7 @@ header {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(249, 94%, 43%, 0.555), hsla(0, 0%, 0%, 0.568)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.319), hsla(0, 0%, 0%, 0.286)), url(../img/b.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.268), hsla(0, 0%, 0%, 0.301)), url(../img/b.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -581,7 +583,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 10000012;
+    z-index: 2;
 
 }
 
@@ -854,7 +856,7 @@ p {
 }
 
 .info-publicasion-img {
-    width: 300px;
+    width: 250px;
 }
 
 .info-publicasion-btn {
