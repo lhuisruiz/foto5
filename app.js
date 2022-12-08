@@ -19,7 +19,7 @@ function modal_11() {
 
     })
 }
-//ABRIR FOTOS 1
+//ABRIR FOTOS  1
 /*
 let boton = document.querySelector('#c');
 boton.addEventListener('click', function () {
